@@ -1,7 +1,7 @@
 module.exports = {
     title: "Hello VuePress",
     description: "Just plating around",
-    base: "/fangshiming-hub/",
+    base: "/",
     markdown: {
         lineNumbers: true
     },

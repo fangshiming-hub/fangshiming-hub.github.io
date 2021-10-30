@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "sh": "sh deploy.sh"
   }
 }

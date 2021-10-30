@@ -14,6 +14,6 @@ git add -A
 git commit -m 'message'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f git@hgithub.com:fangshiming-hub/fangshiming-hub.github.io.git master
+git push -f git@github.com:fangshiming-hub/fangshiming-hub.github.io.git master:master
 
 cd -
