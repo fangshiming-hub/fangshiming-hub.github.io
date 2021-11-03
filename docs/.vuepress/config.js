@@ -1,11 +1,13 @@
 module.exports = {
-    title: "Hello VuePress",
+    title: "Hello JavaScript",
     description: "Just plating around",
+    logo: "/assets/img/weishiren/jpg",
     base: "/",
     markdown: {
         lineNumbers: true
     },
     themeConfig: {
+        repo: "https://github.com/fangshiming-hub",
         sidebarDepth: 2,
         lastUpdated: 'Lase Updated',
         // 顶部导航
@@ -30,10 +32,6 @@ module.exports = {
             {
                 text: "博客导航",
                 link: "/blog/"
-            },
-            {
-                text: "GitHub",
-                link: "/github/"
             },
         ],
         // 侧边导航
@@ -64,10 +62,8 @@ module.exports = {
             "/javaScript/": [
                 '/javaScript/',
                 {
-                    title: 'javaScript',
-                    children: [
-                        '/javaScript/test01/'
-                    ]
+                    title: '正则表达式',
+                    path: '/javaScript/reg'
                 },
                 {
                     title: 'javaScript',

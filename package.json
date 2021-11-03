@@ -10,5 +10,10 @@
     "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs",
     "sh": "sh deploy.sh"
+  },
+  "dependencies": {
+    "@vuepress/theme-default": "^1.8.2",
+    "core-js": "2.6.12",
+    "element-ui": "^2.15.6"
   }
 }
