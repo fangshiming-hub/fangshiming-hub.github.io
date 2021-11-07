@@ -49,3 +49,7 @@ body::-webkit-scrollbar-track {
     background: #ededed;
 }
 ```
+
+## Loading
+
+<loading/>
