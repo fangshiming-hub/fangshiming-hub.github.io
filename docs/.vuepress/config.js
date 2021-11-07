@@ -9,7 +9,10 @@ module.exports = {
     themeConfig: {
         repo: "https://github.com/fangshiming-hub",
         sidebarDepth: 2,
-        lastUpdated: 'Lase Updated',
+        themeConfig: {
+            smoothScroll: true
+        },
+        lastUpdated: '最后更新于 ',
         // 顶部导航
         nav: [
             {
@@ -26,8 +29,8 @@ module.exports = {
                 link: "/algorithm/"
             },
             {
-                text: "javaScript",
-                link: "/javaScript/"
+                text: "前端",
+                link: "/frontend/"
             },
             {
                 text: "博客导航",
@@ -59,22 +62,34 @@ module.exports = {
                     ]
                 }
             ],
-            "/javaScript/": [
-                '/javaScript/',
+            "/frontend/": [
+                '/frontend/',
                 {
-                    title: '正则表达式',
-                    path: '/javaScript/reg'
-                },
-                {
-                    title: 'javaScript',
+                    title: 'js',
                     children: [
-                        '/javaScript/test02/'
+                        {
+                            title: '正则在线测试',
+                            path: '/frontend/js/reg'
+                        }
                     ]
                 },
                 {
-                    title: 'javaScript',
+                    title: 'css',
                     children: [
-                        '/javaScript/test03/'
+                        {
+                            title: '常见样式',
+                            path: '/frontend/css/normal'
+                        },
+                        {
+                            title: 'css问题',
+                            path: '/frontend/css/problem'
+                        }
+                    ]
+                },
+                {
+                    title: 'html',
+                    children: [
+                        '/frontend/html/'
                     ]
                 }
             ],

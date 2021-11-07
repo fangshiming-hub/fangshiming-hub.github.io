@@ -1,8 +1,6 @@
 <template>
     <div class="reg_wrap">
         <div>
-            <h3>测试一下</h3>
-            <p>正则表达式</p>
             <div class="regs">
                 <el-input 
                     v-model="regParren"
