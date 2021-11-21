@@ -69,7 +69,11 @@ module.exports = {
                     children: [
                         {
                             title: '正则在线测试',
-                            path: '/frontend/js/reg'
+                            path: '/frontend/js/regTest'
+                        },
+                        {
+                            title: '正则表达式语法',
+                            path: '/frontend/js/regExp'
                         }
                     ]
                 },
